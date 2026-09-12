@@ -8,7 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script>(function(){try{var t=localStorage.getItem('theme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+  <script>
+    (function(){
+      try {
+        var t = localStorage.getItem('theme');
+        if(t) document.documentElement.setAttribute('data-theme', t);
+      } catch(e){}
+    })();
+  </script>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/style.css?v=2">
 </head>
@@ -67,6 +74,7 @@
       </nav>
 
       <button class="theme-toggle" type="button" aria-label="Toggle light or dark theme">
+
         <span class="when-light">
           <svg viewBox="0 0 24 24" aria-hidden="true">
             <path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/>
@@ -81,6 +89,7 @@
           </svg>
           Light Mode
         </span>
+
       </button>
 
     </div>
@@ -100,9 +109,31 @@
         <h1>Ivanna Pylypenko</h1>
 
         <p class="icons">
-          <a href="https://github.com/">GitHub</a> ·
-          <a href="https://www.linkedin.com/in/ivanna-pylypenko-2b6629360">LinkedIn</a> ·
-          <a href="mailto:ipyl104@uottawa.ca">Email</a>
+          <a href="https://github.com/ivasliv" target="_blank" rel="noopener">
+            GitHub
+          </a> ·
+
+          <a href="https://www.linkedin.com/in/ivanna-pylypenko-2b6629360"
+             target="_blank"
+             rel="noopener">
+            LinkedIn
+          </a> ·
+
+          <a href="mailto:ipyl104@uottawa.ca">
+            Email
+          </a> ·
+
+          <a href="https://ivasliv.github.io"
+             target="_blank"
+             rel="noopener">
+            Website
+          </a> ·
+
+          <a href="https://huggingface.co/ivsliv"
+             target="_blank"
+             rel="noopener">
+            Hugging Face
+          </a>
         </p>
 
         <p class="lede">
@@ -239,20 +270,16 @@
           </p>
 
           <p>
-            Worked on AI evaluation and data-processing workflows involving
-            automated evaluation, structured datasets, and both human and
-            AI-based reviewers.
+            Developed end-to-end AI evaluation pipelines with automated
+            evaluation workflows.
           </p>
 
           <p>
-            Developed data pipelines to query, process, and prepare datasets
-            for evaluation, then analyzed results to identify model
-            performance patterns, failure cases, and areas for improvement.
-          </p>
-
-          <p class="aside">
-            More details about the research workflow and technical work will
-            be added here.
+            Designed and managed evaluation processes combining human
+            reviewers and AI-based evaluators. Engineered data pipelines to
+            query, process, and prepare structured datasets, then analyzed
+            evaluation results to identify model performance patterns,
+            failure cases, and areas for improvement.
           </p>
 
         </article>
@@ -267,13 +294,14 @@
           </p>
 
           <p>
-            Tutor students from Grades 1–12, including advanced mathematics
-            topics such as functions, trigonometry, and calculus.
+            Tutor students from Grades 1–12, including advanced Grade 12
+            mathematics such as functions, trigonometry, and calculus.
           </p>
 
           <p>
-            Adapt explanations to different learning styles and communicate
-            student progress clearly with families and staff.
+            Adapt explanations to different learning styles and support
+            long-term skill growth while communicating student progress
+            clearly with families and staff.
           </p>
 
         </article>
@@ -288,6 +316,9 @@
       <section class="section" id="projects">
 
         <h2>Projects</h2>
+
+
+        <!-- 2026 -->
 
         <div class="showcase">
 
@@ -313,17 +344,71 @@
         <div class="showcase">
 
           <p class="cap">
-            <strong>TutorApp</strong>,
+            <strong>AI Evaluation Pipelines</strong>,
+            AI research workflows
+          </p>
+
+          <p class="blurb">
+            Python · Google Colab · Hugging Face · Data Pipelines
+          </p>
+
+          <p class="blurb">
+            Research workflows for AI model evaluation involving automated
+            evaluation, structured datasets, and both human and AI-based
+            reviewers. Developed data pipelines to prepare datasets and
+            analyze evaluation results.
+          </p>
+
+        </div>
+
+
+        <div class="showcase">
+
+          <p class="cap">
+            <strong>
+              <a href="https://github.com/ivasliv/ivasliv.github.io.git"
+                 target="_blank"
+                 rel="noopener">
+                This Site
+              </a>
+            </strong>,
+            personal portfolio and resume website
+          </p>
+
+          <p class="blurb">
+            HTML · CSS · JavaScript · GitHub Pages
+          </p>
+
+          <p class="blurb">
+            Personal portfolio website designed to present my education,
+            experience, projects, technical skills, and resume.
+          </p>
+
+        </div>
+
+
+        <!-- 2025 -->
+
+        <div class="showcase">
+
+          <p class="cap">
+            <strong>
+              <a href="https://github.com/ivasliv/Assignment2SEG2105.git"
+                 target="_blank"
+                 rel="noopener">
+                OTAMS TutorApp
+              </a>
+            </strong>,
             multi-role tutoring application
           </p>
 
           <p class="blurb">
-            Java · OOP · MVC · UI Design · Git
+            Java · OOP · MVC · UI Design · Git Collaboration
           </p>
 
           <p class="blurb">
             A six-person team project for a tutoring application supporting
-            administrators, teachers, and students. Implemented UI
+            administrators, teachers, and students. Implemented major UI
             components, helper classes, and interaction logic while
             integrating frontend and backend modules.
           </p>
@@ -339,7 +424,7 @@
           </p>
 
           <p class="blurb">
-            Java · DFS · BFS · Dijkstra's Algorithm · Graph Algorithms
+            Java · DFS · BFS · Dijkstra's Algorithm · File Processing
           </p>
 
           <p class="blurb">
@@ -363,12 +448,18 @@
           </p>
 
           <p class="blurb">
-            Designed and simulated a functional simple CPU with an ALU,
-            register file, instruction decoder, and control unit.
+            Designed and simulated a functional simple CPU featuring an ALU,
+            register file, instruction decoder, and control unit. Demonstrated
+            understanding of low-level architecture, execution cycles, and
+            data flow.
           </p>
 
         </div>
 
+
+        <!-- =========================================================
+             PROJECT TABLE
+             ========================================================= -->
 
         <table class="all-projects">
 
@@ -377,6 +468,7 @@
               <th>Year</th>
               <th>Project</th>
               <th>Technology</th>
+              <th>Git</th>
             </tr>
           </thead>
 
@@ -384,68 +476,121 @@
 
             <tr>
               <td>2026</td>
+
               <td>
                 <strong>Hotel Management Web Application</strong>
                 Full-stack hotel management system
               </td>
+
               <td>
                 Java · Spring Boot · PostgreSQL
               </td>
+
+              <td>—</td>
             </tr>
+
 
             <tr>
               <td>2026</td>
-              <td>
-                <strong>TutorApp</strong>
-                Multi-role tutoring application
-              </td>
-              <td>
-                Java · OOP · MVC · Git
-              </td>
-            </tr>
 
-            <tr>
-              <td>2026</td>
-              <td>
-                <strong>Paris Metro as a Graph</strong>
-                Graph and shortest-path algorithms
-              </td>
-              <td>
-                Java · DFS · BFS · Dijkstra
-              </td>
-            </tr>
-
-            <tr>
-              <td>2026</td>
-              <td>
-                <strong>Simple CPU Design</strong>
-                Functional CPU architecture simulation
-              </td>
-              <td>
-                Digital Logic · CPU · ALU
-              </td>
-            </tr>
-
-            <tr>
-              <td>2026</td>
               <td>
                 <strong>AI Evaluation Pipelines</strong>
                 Research workflows for model evaluation
               </td>
+
               <td>
                 Python · Colab · Hugging Face
               </td>
+
+              <td>—</td>
             </tr>
+
 
             <tr>
               <td>2026</td>
+
               <td>
-                <strong>This Site</strong>
+                <strong>
+                  <a href="https://github.com/ivasliv/ivasliv.github.io.git"
+                     target="_blank"
+                     rel="noopener">
+                    This Site
+                  </a>
+                </strong>
                 Personal portfolio and resume website
               </td>
+
               <td>
                 HTML · CSS · JavaScript · GitHub Pages
               </td>
+
+              <td>
+                <a href="https://github.com/ivasliv/ivasliv.github.io.git"
+                   target="_blank"
+                   rel="noopener">
+                  GitHub
+                </a>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>2025</td>
+
+              <td>
+                <strong>
+                  <a href="https://github.com/ivasliv/Assignment2SEG2105.git"
+                     target="_blank"
+                     rel="noopener">
+                    OTAMS TutorApp
+                  </a>
+                </strong>
+                Multi-role tutoring application
+              </td>
+
+              <td>
+                Java · OOP · MVC · Git
+              </td>
+
+              <td>
+                <a href="https://github.com/ivasliv/Assignment2SEG2105.git"
+                   target="_blank"
+                   rel="noopener">
+                  GitHub
+                </a>
+              </td>
+            </tr>
+
+
+            <tr>
+              <td>2025</td>
+
+              <td>
+                <strong>Paris Metro as a Graph</strong>
+                Graph and shortest-path algorithms
+              </td>
+
+              <td>
+                Java · DFS · BFS · Dijkstra
+              </td>
+
+              <td>—</td>
+            </tr>
+
+
+            <tr>
+              <td>2025</td>
+
+              <td>
+                <strong>Simple CPU Design</strong>
+                Functional CPU architecture simulation
+              </td>
+
+              <td>
+                Digital Logic · CPU · ALU
+              </td>
+
+              <td>—</td>
             </tr>
 
           </tbody>
@@ -550,12 +695,28 @@
 
     <div class="icons">
 
-      <a href="https://github.com/">
+      <a href="https://github.com/ivasliv"
+         target="_blank"
+         rel="noopener">
         GitHub
       </a>
 
-      <a href="https://www.linkedin.com/in/ivanna-pylypenko-2b6629360">
+      <a href="https://www.linkedin.com/in/ivanna-pylypenko-2b6629360"
+         target="_blank"
+         rel="noopener">
         LinkedIn
+      </a>
+
+      <a href="https://huggingface.co/ivsliv"
+         target="_blank"
+         rel="noopener">
+        Hugging Face
+      </a>
+
+      <a href="https://ivasliv.github.io"
+         target="_blank"
+         rel="noopener">
+        Website
       </a>
 
     </div>
