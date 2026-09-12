@@ -1,5 +1,5 @@
 /* ------------------------------------------------------------------
-   danielnguyen — portfolio
+   ivanna pylypenko — portfolio
    Look: a light content card on a bold page colour, black sidebars,
    monospace type throughout, centered section headings.
    Tokens first. Change --frame to recolour the whole page.
@@ -367,4 +367,17 @@ tbody tr:nth-child(odd) td { background: var(--well); }
   .side, .site-footer, .cv-embed { display: none; }
   .card { max-width: none; padding: 0; }
   a { color: inherit; text-decoration: none; }
+}
+
+.cv-embed {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.cv-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
